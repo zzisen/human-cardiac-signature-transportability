@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from matplotlib.lines import Line2D
+from matplotlib.transforms import Bbox
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -85,10 +86,19 @@ def point_interval(ax, x, lo, hi, y, color, marker="o", ms=5.1,
 
 def save(fig, number):
     stem = f"Figure S{number}" if BUNDLE_MODE else f"Supplementary_Figure_{number}"
-    fig.savefig(OUT / f"{stem}.png", dpi=300, bbox_inches="tight", pad_inches=0.08)
-    fig.savefig(OUT / f"{stem}.svg", bbox_inches="tight", pad_inches=0.08)
+    if number == 5:
+        fig.canvas.draw()
+        tight = fig.get_tightbbox(fig.canvas.get_renderer())
+        # Preserve the pre-patch canvas bounds and data-region position after
+        # the S5 labels were expanded; only whitespace around the plot is adjusted.
+        bbox = Bbox.from_extents(
+            tight.x0 - (64 / 300), tight.y0 - (26 / 300),
+            tight.x1 + (24 / 300), tight.y1 + (21 / 300))
+    else:
+        bbox = "tight"
+    fig.savefig(OUT / f"{stem}.png", dpi=300, bbox_inches=bbox, pad_inches=0.08)
+    fig.savefig(OUT / f"{stem}.svg", bbox_inches=bbox, pad_inches=0.08)
     plt.close(fig)
-
 
 def fig1():
     h = table(1, "Source_S1a_Hierarchy.csv")
@@ -239,7 +249,14 @@ def fig5():
                                gridspec_kw={"height_ratios": [1.08, 0.9], "hspace": 0.68})
     section(a, "a", "Organoid vs cardiomyocyte axis associations")
     ax_rows = axes_data.iloc[::-1].reset_index(drop=True)
-    a.set_yticks(np.arange(len(ax_rows)), ax_rows.axis_label)
+    label_wrap = {
+        "Sarcomere contractile": "Sarcomere\ncontractile",
+        "Oxidative mitochondrial": "Oxidative\nmitochondrial",
+        "Calcium excitation coupling": "Calcium excitation\ncoupling",
+        "Non-cardiomyocyte marker context": "Non-cardiomyocyte\nmarker context",
+    }
+    display_labels = [label_wrap.get(label, label) for label in ax_rows.axis_label]
+    a.set_yticks(np.arange(len(ax_rows)), display_labels)
     a.set_ylim(-0.6, 4.6)
     a.set_xlim(-0.55, 0.95)
     a.axvline(0, color=GRAY, lw=0.85, ls=(0, (3, 3)), zorder=0)
@@ -250,12 +267,12 @@ def fig5():
     style_axis(a)
 
     section(b, "b", "3D minus 2D culture contrasts")
-    groups = ["D2 Sarcomere", "D3 Mitochondrial"]
+    groups = ["Sarcomere\ncontractile", "Oxidative\nmitochondrial"]
     b.set_yticks([1, 0], groups)
     b.set_ylim(-0.6, 1.6)
     b.set_xlim(-0.12, 0.015)
     b.axvline(0, color=GRAY, lw=0.85, ls=(0, (3, 3)), zorder=0)
-    for y, axis_name in [(1, "D2 Sarcomere"), (0, "D3 Mitochondrial")]:
+    for y, axis_name in [(1, "Sarcomere contractile"), (0, "Oxidative mitochondrial")]:
         rows = culture[culture.axis_label == axis_name]
         for _, r in rows.iterrows():
             wt = r.contrast.startswith("WT")
@@ -271,7 +288,6 @@ def fig5():
     style_axis(b)
     fig.subplots_adjust(left=0.34, right=0.98, top=0.94, bottom=0.09)
     save(fig, 5)
-
 
 def fig6():
     genes = table(6, "Source_S6a_Adult_LV_Gene_Effects.csv")
