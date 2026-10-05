@@ -1,0 +1,7 @@
+system,term,scaled_by_total_variance,ci_lo,ci_hi
+Organoid,Positive-weight variance,0.797575,0.568203,1.555088
+Organoid,Twice signed covariance,-0.164158,-1.330205,0.197334
+Organoid,Negative-weight variance,0.366584,0.210957,0.891577
+Cardiomyocyte,Positive-weight variance,3.00845,1.503126,5.874112
+Cardiomyocyte,Twice signed covariance,-7.00652,-14.317006,-2.945041
+Cardiomyocyte,Negative-weight variance,4.99807,2.426177,9.485218
