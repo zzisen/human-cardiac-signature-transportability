@@ -1,0 +1,3 @@
+metric,estimate,ci_lo,ci_hi
+Sign concordance,0.590919638,0.5521649818,0.6013470241
+Absolute-weighted sign concordance,0.621137744,0.5808470436,0.6398022574
