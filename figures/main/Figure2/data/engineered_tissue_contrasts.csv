@@ -1,0 +1,3 @@
+contrast,accession,n_case,n_control,mean_score_difference,ci_lo,ci_hi,exact_one_sided_p
+"Tachypaced EHT, day 3",GSE242727,2,2,-121.6489,-336.7376,93.4398,0.8333
+Dystrophin-deficient EHT,GSE199242,3,3,-143.9014,-312.9418,-31.9391,1

@@ -1,0 +1,6 @@
+analysis,compounds,dose_groups,rho,ci_lo,ci_hi
+Primary frozen score,42,310,0.0358119,-0.100774,0.176197
+Sub-cytotoxic support,16,85,0.123046,-0.104451,0.340969
+No observed MEC,25,194,-0.0041419,-0.18648,0.175836
+≤25× Cmax,42,248,-0.0021992,-0.15188,0.148972
+≤10× Cmax,42,225,-0.0142164,-0.168123,0.13617
