@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: >-
+  If you use these software scripts or figure source data, please cite the
+  associated study and the archived release.
+title: "Adult heart failure molecular anchoring and functional mapping diverge across cardiac systems"
+type: software
+authors:
+  - family-names: Zhou
+    given-names: Zisen
+    affiliation: "Auckland Bioengineering Institute, University of Auckland, Auckland, New Zealand"
+version: 1.0.0
+repository-code: "https://github.com/zzisen/human-cardiac-signature-transportability"
+date-released: 2026-10-05
