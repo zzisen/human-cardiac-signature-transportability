@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="509.767172pt" height="223.901335pt" viewBox="0 0 509.767172 223.901335" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-05T20:41:58.040679</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 223.901335 
+L 509.767172 223.901335 
+L 509.767172 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 163.283906 184.11696 
+L 495.059906 184.11696 
+L 495.059906 10.66896 
+L 163.283906 10.66896 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 163.642224 88.186874 
+L 494.701588 88.186874 
+Q 495.099719 88.186874 495.099719 80.181582 
+L 495.099719 78.580523 
+Q 495.099719 70.575231 494.701588 70.575231 
+L 163.642224 70.575231 
+Q 163.244093 70.575231 163.244093 78.580523 
+L 163.244093 80.181582 
+Q 163.244093 88.186874 163.642224 88.186874 
+z
+" clip-path="url(#p2af181ed9b)" style="fill: #d0d9e3"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 163.642224 156.898966 
+L 494.701588 156.898966 
+Q 495.099719 156.898966 495.099719 148.893674 
+L 495.099719 147.292615 
+Q 495.099719 139.287323 494.701588 139.287323 
+L 163.642224 139.287323 
+Q 163.244093 139.287323 163.244093 147.292615 
+L 163.244093 148.893674 
+Q 163.244093 156.898966 163.642224 156.898966 
+z
+" clip-path="url(#p2af181ed9b)" style="fill: #d0d9e3"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m512874586a" d="M 0 0 
+L 0 4 
+" style="stroke: #17212b; stroke-width: 0.9"/>
+      </defs>
+      <g>
+       <use xlink:href="#m512874586a" x="163.283906" y="184.11696" style="fill: #17212b; stroke: #17212b; stroke-width: 0.9"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #17212b" x="163.283906" y="198.058991" transform="rotate(-0 163.283906 198.058991)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m512874586a" x="246.227906" y="184.11696" style="fill: #17212b; stroke: #17212b; stroke-width: 0.9"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #17212b" x="246.227906" y="198.058991" transform="rotate(-0 246.227906 198.058991)">25</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m512874586a" x="329.171906" y="184.11696" style="fill: #17212b; stroke: #17212b; stroke-width: 0.9"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #17212b" x="329.171906" y="198.058991" transform="rotate(-0 329.171906 198.058991)">50</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m512874586a" x="412.115906" y="184.11696" style="fill: #17212b; stroke: #17212b; stroke-width: 0.9"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #17212b" x="412.115906" y="198.058991" transform="rotate(-0 412.115906 198.058991)">75</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m512874586a" x="495.059906" y="184.11696" style="fill: #17212b; stroke: #17212b; stroke-width: 0.9"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #17212b" x="495.059906" y="198.058991" transform="rotate(-0 495.059906 198.058991)">100</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: middle; fill: #17212b" x="329.171906" y="214.491413" transform="rotate(-0 329.171906 214.491413)">Sign concordance (%)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6"/>
+     <g id="text_7">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: end; fill: #17212b" x="154.283906" y="82.656912" transform="rotate(-0 154.283906 82.656912)">Sign concordance</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7"/>
+     <g id="text_8">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: end; fill: #17212b" x="154.283906" y="151.31416" transform="rotate(-0 154.283906 151.31416)">Absolute-weighted sign concordance</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_5">
+    <path d="M 163.642224 88.186874 
+L 358.978542 88.186874 
+Q 359.376673 88.186874 359.376673 80.181582 
+L 359.376673 78.580523 
+Q 359.376673 70.575231 358.978542 70.575231 
+L 163.642224 70.575231 
+Q 163.244093 70.575231 163.244093 78.580523 
+L 163.244093 80.181582 
+Q 163.244093 88.186874 163.642224 88.186874 
+z
+" clip-path="url(#p2af181ed9b)" style="fill: #1e6cc0"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 163.642224 156.898966 
+L 369.004184 156.898966 
+Q 369.402316 156.898966 369.402316 148.893674 
+L 369.402316 147.292615 
+Q 369.402316 139.287323 369.004184 139.287323 
+L 163.642224 139.287323 
+Q 163.244093 139.287323 163.244093 147.292615 
+L 163.244093 148.893674 
+Q 163.244093 156.898966 163.642224 156.898966 
+z
+" clip-path="url(#p2af181ed9b)" style="fill: #199891"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 163.283906 184.11696 
+L 495.059906 184.11696 
+" style="fill: none; stroke: #17212b; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_9">
+    <g clip-path="url(#p2af181ed9b)">
+     <text style="font-weight: 700; font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #1e6cc0" x="365.308828" y="82.102849" transform="rotate(-0 365.308828 82.102849)">59.1%</text>
+    </g>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #17212b" x="166.601666" y="102.488741" transform="rotate(-0 166.601666 102.488741)">95% donor-bootstrap CI 55.2–60.1% · 7,640 / 12,929 shared eligible genes</text>
+   </g>
+   <g id="text_11">
+    <g clip-path="url(#p2af181ed9b)">
+     <text style="font-weight: 700; font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #199891" x="375.33447" y="150.814941" transform="rotate(-0 375.33447 150.814941)">62.1%</text>
+    </g>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7px; font-family: 'Arial'; text-anchor: start; fill: #17212b" x="166.601666" y="171.200834" transform="rotate(-0 166.601666 171.200834)">95% donor-bootstrap CI 58.1–64.0% · weighted by |frozen projection weight|</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_8">
+     <path d="M 243.785091 15.7045 
+L 250.355091 15.7045 
+L 250.355091 10.12 
+L 243.785091 10.12 
+z
+" style="fill: #1e6cc0"/>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 7.3px; font-family: 'Arial'; text-anchor: start; fill: #17212b" x="256.195091" y="15.449" transform="rotate(-0 256.195091 15.449)">Sign concordance</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 322.660451 15.7045 
+L 329.230451 15.7045 
+L 329.230451 10.12 
+L 322.660451 10.12 
+z
+" style="fill: #199891"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 7.3px; font-family: 'Arial'; text-anchor: start; fill: #17212b" x="335.070451" y="15.449" transform="rotate(-0 335.070451 15.449)">Absolute-weighted sign concordance</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2af181ed9b">
+   <rect x="163.283906" y="10.66896" width="331.776" height="173.448"/>
+  </clipPath>
+ </defs>
+</svg>
