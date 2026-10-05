@@ -1,0 +1,13 @@
+endpoint,component,rho,ci_lo,ci_hi
+4 h Force,Pooled concordant,-0.59933,-0.725473,-0.441463
+4 h Force,Pooled discordant,0.212699,-0.021861,0.430588
+4 h Force,Pan concordant,-0.592321,-0.722576,-0.431734
+4 h Force,Pan discordant,0.254884,0.030789,0.462795
+24 h Force,Pooled concordant,-0.724296,-0.806813,-0.604019
+24 h Force,Pooled discordant,0.262154,0.037472,0.478499
+24 h Force,Pan concordant,-0.722075,-0.807923,-0.604941
+24 h Force,Pan discordant,0.317269,0.102094,0.522032
+24 h − 4 h Force,Pooled concordant,-0.591842,-0.731458,-0.40904
+24 h − 4 h Force,Pooled discordant,0.159086,-0.078971,0.378829
+24 h − 4 h Force,Pan concordant,-0.590819,-0.729743,-0.407134
+24 h − 4 h Force,Pan discordant,0.219142,-0.01191,0.430953
