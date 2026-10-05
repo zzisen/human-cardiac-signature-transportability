@@ -1,0 +1,8 @@
+analysis,definition,estimate_or_min,lo_or_max,hi
+Leave-one-class-out range,Pooled,0.343,0.5772,Range across seven omissions
+Class-conditioned,Pooled,0.372327,0.206387,0.517621
+Class-conditioned,Pan-etiology,0.328269,0.173335,0.468066
+Plate-adjusted,Pooled,0.517443,0.289036,0.708073
+Plate-adjusted,Pan-etiology,0.461873,0.249168,0.667999
+Response-burden adjusted,Pooled,0.373534,0.048668,0.617176
+Response-burden adjusted,Pan-etiology,0.413726,0.083251,0.622023
