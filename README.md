@@ -18,3 +18,4 @@ The scripts rebuild Main Figures 2–5 and Supplementary Figures 1–8 from bund
 The MIT license covers original code only. It does not license non-code figures or source tables. The two gene-level tables containing ReHeaT reference weights have a separate CC BY-NC 4.0 notice in `THIRD_PARTY_NOTICES.md`.
 
 Repository: https://github.com/zzisen/human-cardiac-signature-transportability
+Zenodo archive (v1.0.0): https://doi.org/10.5281/zenodo.23156479
