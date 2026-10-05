@@ -1,0 +1,5 @@
+fixed_feature_axis,contrast,estimate,ci_lo,ci_hi,axis_label
+Axis 2,WT 3D minus 2D,-0.062635,-0.067664,-0.057019,D2 Sarcomere
+Axis 2,DMD 3D minus 2D,-0.06577,-0.071775,-0.061367,D2 Sarcomere
+Axis 3,WT 3D minus 2D,-0.078811,-0.089997,-0.061866,D3 Mitochondrial
+Axis 3,DMD 3D minus 2D,-0.083837,-0.091709,-0.075518,D3 Mitochondrial

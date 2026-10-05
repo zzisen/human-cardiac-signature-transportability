@@ -1,0 +1,6 @@
+fixed_feature_axis,cardiomyocyte_minus_organoid,ci_lo,ci_hi,axis_label
+Axis 1,0.154182,-0.111138,0.414122,D1 Human maturation
+Axis 2,0.613723,0.360494,0.837197,D2 Sarcomere
+Axis 3,0.490708,0.231829,0.722547,D3 Mitochondrial
+Axis 4,-0.207453,-0.428638,0.040667,D4 Calcium/ECC
+Axis 5,0.00614,-0.256328,0.27541,D5 Non-CM markers
