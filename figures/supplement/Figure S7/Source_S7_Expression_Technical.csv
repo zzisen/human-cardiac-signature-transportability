@@ -1,0 +1,6 @@
+comparison,distance,lo,hi,range_type
+Observed cardiomyocyte distance,0.3317,0.3317,0.3317,Observed
+Count-depth matched simulation,0.04027,0.04002,0.04051,Conditional simulation percentiles
+Detection matched simulation,0.07352,0.07303,0.07398,Conditional simulation percentiles
+High-detection organoid reference,0.01042,0.01042,0.01042,Fixed-gene subset
+High-detection cardiomyocyte,0.58463,0.58166,0.58649,Fixed-gene subset
