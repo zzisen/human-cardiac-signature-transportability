@@ -1,0 +1,5 @@
+definition,component,rho,ci_lo,ci_hi
+Pooled,Concordant,-0.724295556,-0.80912444,-0.606127583
+Pooled,Discordant,0.262154308,0.037472032,0.478499478
+Pan-etiology,Concordant,-0.722075293,-0.807922663,-0.60494089
+Pan-etiology,Discordant,0.317269076,0.102094106,0.522031993
