@@ -1,0 +1,7 @@
+endpoint,definition,preference,ci_lo,ci_hi
+4 h Force,Pooled definition,0.386631,0.179372,0.580975
+4 h Force,Pan-etiology definition,0.337436,0.1449,0.531926
+24 h Force,Pooled definition,0.462141,0.254818,0.659994
+24 h Force,Pan-etiology definition,0.404806,0.215506,0.602217
+24 h − 4 h Force,Pooled definition,0.432755,0.214006,0.611009
+24 h − 4 h Force,Pan-etiology definition,0.371676,0.174459,0.560593
