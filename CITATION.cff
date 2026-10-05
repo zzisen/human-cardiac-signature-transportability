@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: >-
   If you use these software scripts or figure source data, please cite the
-  associated study and the archived release.
+  associated study and archived software release.
 title: "Adult heart failure molecular anchoring and functional mapping diverge across cardiac systems"
 type: software
 authors:
@@ -11,3 +11,6 @@ authors:
 version: 1.0.0
 repository-code: "https://github.com/zzisen/human-cardiac-signature-transportability"
 date-released: 2026-10-05
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23156479"
